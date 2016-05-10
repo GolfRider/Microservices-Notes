@@ -11,8 +11,8 @@ Notes on Microservices based System Design &amp; Architecture
   8. The hard+interesting things exist in-between the services
   9. Refactoring a Monolith into micro-services/building microservices from scratch 
                           : Service Transaction Boundaries play a major role
-  10. Do only ONE thing well: Services should be highly focussed, follow the UNIX philosophy
-                             Should have Single Responsibility  
+  10. Do only ONE thing well:  Services should be highly focussed, follow the UNIX philosophy
+                               Should have Single Responsibility  
   11. Autonomous services
   12. Services Owns their Data/State
   13. Embrace Polyglot Systems+DB (Can have multiple tech stacks depending on the use case)
@@ -32,5 +32,8 @@ Notes on Microservices based System Design &amp; Architecture
   23. Operational+Deployment+Test efficiency, Conitnuous Integration
   24. Increases lot of operational overhead, so best practices/processes should be in place
       otherwise things can get pretty messy
+  25. Avoid the temptation of having a GLOBAL-CONSISTENT VIEW of the system
+  26. Java/Scala Frameworks:    Spring Cloud (Pivotal)
+                                Lagom (LightBend,formerly Typesafe)
 
   
